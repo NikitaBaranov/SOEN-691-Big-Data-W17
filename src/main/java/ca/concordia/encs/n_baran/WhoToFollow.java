@@ -21,8 +21,67 @@ import org.apache.hadoop.util.StringUtils;
 
 public class WhoToFollow {
 
+    public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
+        Configuration conf1 = new Configuration();
+        Job job = Job.getInstance(conf1, "Who To Follow Index");
+        job.setJarByClass(WhoToFollow.class);
+
+        job.setMapperClass(WhoToFollowIndexMapper.class);
+        job.setReducerClass(WhoToFollowIndexReducer.class);
+
+        job.setOutputKeyClass(IntWritable.class);
+        job.setOutputValueClass(IntWritable.class);
+
+        FileInputFormat.addInputPath(job, new Path(args[0]));
+        String intermediateOutputPath = "output_"+System.currentTimeMillis();
+        FileOutputFormat.setOutputPath(job, new Path(intermediateOutputPath));
+
+        job.waitForCompletion(true);
+
+
+        Configuration conf2 = new Configuration();
+        Job job2 = Job.getInstance(conf2, "Who To Follow Similarity");
+        job2.setJarByClass(WhoToFollow.class);
+
+        job2.setMapperClass(AllPairsMapper.class);
+        job2.setReducerClass(WhoToFollowIndexReducer.class);
+
+        job2.setOutputKeyClass(IntWritable.class);
+        job2.setOutputValueClass(IntWritable.class);
+
+        FileInputFormat.addInputPath(job2, new Path(intermediateOutputPath));
+        FileOutputFormat.setOutputPath(job2, new Path("output_"+System.currentTimeMillis()));
+
+        System.exit(job2.waitForCompletion(true) ? 0 : 1);
+
+    }
+
+
+    /**********************/
+    /**      Mappers     **/
+    /**********************/
+
+    //Mapper fot Who To Follow Indexing
+    public static class WhoToFollowIndexMapper extends Mapper<Object, Text, IntWritable, IntWritable> {
+        // Emits inverted list.
+        public void map(Object key, Text values, Context context) throws IOException, InterruptedException {
+            StringTokenizer st = new StringTokenizer(values.toString());
+            IntWritable user = new IntWritable();
+            IntWritable follower = new IntWritable();
+
+            follower.set(Integer.parseInt(st.nextToken()));
+
+            while (st.hasMoreTokens()) {
+                user.set(Integer.parseInt(st.nextToken()));
+                context.write(user, follower);
+            }
+        }
+    }
+
+    //Mapper for People you may know
     public static class AllPairsMapper extends Mapper<Object, Text, IntWritable, IntWritable> {
         // Emits (a,b) *and* (b,a) any time a friend common to a and b is found.
+        // Emits (x,-f) for all freands that already know each other
         public void map(Object key, Text values, Context context) throws IOException, InterruptedException {
             // Key is ignored as it only stores the offset of the line in the text file
             StringTokenizer st = new StringTokenizer(values.toString());
@@ -57,59 +116,22 @@ public class WhoToFollow {
     /**      Reducer     **/
     /**********************/
 
-    public static class CountReducer extends Reducer<IntWritable, IntWritable, IntWritable, Text> {
+    // Reducer fo Whom to follow Indexing
+    public static class WhoToFollowIndexReducer extends Reducer<IntWritable, IntWritable, IntWritable, Text> {
 
-        // A private class to describe a recommendation.
-        // A recommendation has a friend id and a number of friends in common.
-        private static class Recommendation {
-
-            // Attributes
-            private int friendId;
-            private int nCommonFriends;
-            private boolean isAlreadyFriends;
-
-            // Constructor
-            public Recommendation(int newFriendId) {
-                this.friendId = Math.abs(newFriendId);
-                // A recommendation must have at least 1 common friend
-                this.nCommonFriends = 1;
-                this.isAlreadyFriends = false;
-                // If users are already friends
-                if (newFriendId < 0) {
-                    this.isAlreadyFriends = true;
-//                    this.nCommonFriends --;
-                };
+        public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
+            StringBuffer sb = new StringBuffer(""); // Using a StringBuffer is more efficient than concatenating strings
+            while (values.iterator().hasNext()) {
+                sb.append(values.iterator().next().get());
+                sb.append(" ");
             }
-            // Getters
-            public int getFriendId() {
-                return friendId;
-            }
-            public int getNCommonFriends() {
-                return nCommonFriends;
-            }
-
-            // Other methods
-            // Increments the number of common friends
-            public void addCommonFriend(int userWithCommonFriend) {
-                if (userWithCommonFriend < 0) this.isAlreadyFriends = true;
-                nCommonFriends++;
-            }
-            // String representation used in the reduce output
-            public String toString() {
-                if(!isAlreadyFriends) {
-                    return friendId + "(" + nCommonFriends + ") ";
-                } else return "";
-            }
-
-            // Finds a representation in an array
-            public static Recommendation find(int friendId, ArrayList<Recommendation> recommendations) {
-                for (Recommendation p : recommendations)
-                    if (p.getFriendId() == Math.abs(friendId))
-                        return p;
-                // Recommendation was not found!
-                return null;
-            }
+            Text result = new Text(sb.toString());
+            context.write(key, result);
         }
+    }
+
+    // Reducer for People you may know
+    public static class CountReducer extends Reducer<IntWritable, IntWritable, IntWritable, Text> {
 
         // The reduce method
         public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
@@ -147,19 +169,59 @@ public class WhoToFollow {
             Text result = new Text(sb.toString());
             context.write(user, result);
         }
-    }
 
-    public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
-        Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "People you may know clean");
-        job.setJarByClass(WhoToFollow.class);
-        job.setMapperClass(AllPairsMapper.class);
-        job.setReducerClass(CountReducer.class);
-        job.setOutputKeyClass(IntWritable.class);
-        job.setOutputValueClass(IntWritable.class);
-        FileInputFormat.addInputPath(job, new Path(args[0]));
-//        FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        FileOutputFormat.setOutputPath(job, new Path("output_"+System.currentTimeMillis()));
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        // A private class to describe a recommendation.
+        // A recommendation has a friend id and a number of friends in common.
+        private static class Recommendation {
+
+            // Attributes
+            private int friendId;
+            private int nCommonFriends;
+            private boolean isAlreadyFriends;
+
+            // Constructor
+            public Recommendation(int newFriendId) {
+                this.friendId = Math.abs(newFriendId);
+                // A recommendation must have at least 1 common friend
+                this.nCommonFriends = 1;
+                this.isAlreadyFriends = false;
+                // If users are already friends
+                if (newFriendId < 0) {
+                    this.isAlreadyFriends = true;
+                };
+            }
+
+            // Finds a representation in an array
+            public static Recommendation find(int friendId, ArrayList<Recommendation> recommendations) {
+                for (Recommendation p : recommendations)
+                    if (p.getFriendId() == Math.abs(friendId))
+                        return p;
+                // Recommendation was not found!
+                return null;
+            }
+
+            // Getters
+            public int getFriendId() {
+                return friendId;
+            }
+
+            public int getNCommonFriends() {
+                return nCommonFriends;
+            }
+
+            // Other methods
+            // Increments the number of common friends
+            public void addCommonFriend(int userWithCommonFriend) {
+                if (userWithCommonFriend < 0) this.isAlreadyFriends = true;
+                nCommonFriends++;
+            }
+
+            // String representation used in the reduce output
+            public String toString() {
+//                if(!isAlreadyFriends) {
+                    return friendId + "(" + nCommonFriends + ") ";
+//                } else return "";
+            }
+        }
     }
 }
