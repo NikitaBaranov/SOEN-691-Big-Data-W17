@@ -44,7 +44,7 @@ public class WhoToFollow {
         job2.setJarByClass(WhoToFollow.class);
 
         job2.setMapperClass(AllPairsMapper.class);
-        job2.setReducerClass(WhoToFollowIndexReducer.class);
+        job2.setReducerClass(CountReducer.class);
 
         job2.setOutputKeyClass(IntWritable.class);
         job2.setOutputValueClass(IntWritable.class);
@@ -106,7 +106,7 @@ public class WhoToFollow {
                     context.write(friend1, friend2);
                     context.write(friend2, friend1);
                 }
-                context.write(friendMain, new IntWritable(friend1.get() * -1));
+                context.write(friend1, new IntWritable(friendMain.get() * -1));
                 seenFriends.add(friend1.get());
             }
         }
@@ -218,9 +218,9 @@ public class WhoToFollow {
 
             // String representation used in the reduce output
             public String toString() {
-//                if(!isAlreadyFriends) {
+                if(!isAlreadyFriends) {
                     return friendId + "(" + nCommonFriends + ") ";
-//                } else return "";
+                } else return "";
             }
         }
     }
