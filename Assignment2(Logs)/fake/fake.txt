@@ -1,0 +1,111 @@
+Feb 27 03:29:01 odyssey rsyslogd: [origin software="rsyslogd" swVersion="7.4.7" x-pid="797" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Feb 27 03:29:02 odyssey systemd: Removed slice user-0.slice.
+Feb 27 03:29:02 odyssey systemd: Stopping user-0.slice.
+Feb 27 03:29:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:29:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:29:26 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:29:26 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:30:01 odyssey systemd: Created slice user-0.slice.
+Feb 27 03:30:01 odyssey systemd: Starting user-0.slice.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user achille.
+Feb 27 03:30:01 odyssey systemd: Starting Session 6814 of user achille.
+Feb 27 03:30:01 odyssey systemd: Removed slice user-0.slice.
+Feb 27 03:30:01 odyssey systemd: Stopping user-0.slice.
+Feb 27 03:31:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:31:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:32:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:32:07 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:33:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:33:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:34:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:34:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:35:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:35:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:36:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:36:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:36:24 odyssey chronyd[847]: Source 24.122.14.21 replaced with 206.108.0.132
+Feb 27 03:36:26 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:36:26 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:38:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:38:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:39:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:39:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:40:01 odyssey systemd: Created slice user-0.slice.
+Feb 27 03:40:01 odyssey systemd: Starting user-0.slice.
+Feb 27 03:40:01 odyssey systemd: Started Session 6815 of user achille.
+Feb 27 03:40:01 odyssey systemd: Starting Session 6815 of user achille.
+Feb 27 03:40:01 odyssey systemd: Removed slice user-0.slice.
+Feb 27 03:40:01 odyssey systemd: Stopping user-0.slice.
+Feb 27 03:42:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:42:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:44:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:44:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:45:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:45:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:46:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:46:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:46:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:46:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:48:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:48:08 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:48:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:48:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:49:12 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:49:12 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:50:01 odyssey systemd: Created slice user-0.slice.
+Feb 27 03:50:01 odyssey systemd: Starting user-0.slice.
+Feb 27 03:50:01 odyssey systemd: Started Session 6816 of user achille.
+Feb 27 03:50:01 odyssey systemd: Starting Session 6816 of user achille.
+Feb 27 03:50:01 odyssey systemd: Removed slice user-0.slice.
+Feb 27 03:50:01 odyssey systemd: Stopping user-0.slice.
+Feb 27 03:51:01 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:51:01 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:51:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:51:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:52:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:52:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:54:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:54:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:54:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:54:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:56:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:56:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:56:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:56:27 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:57:12 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:57:12 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:00:01 odyssey systemd: Created slice user-0.slice.
+Feb 27 04:00:01 odyssey systemd: Starting user-0.slice.
+Feb 27 04:00:01 odyssey systemd: Started Session 6817 of user achille.
+Feb 27 04:00:01 odyssey systemd: Starting Session 6817 of user achille.
+Feb 27 04:00:01 odyssey systemd: Removed slice user-0.slice.
+Feb 27 04:00:01 odyssey systemd: Stopping user-0.slice.
+Feb 27 04:01:01 odyssey systemd: Created slice user-0.slice.
+Feb 27 04:01:01 odyssey systemd: Starting user-0.slice.
+Feb 27 04:01:01 odyssey systemd: Started Session 6818 of user achille.
+Feb 27 04:01:01 odyssey systemd: Starting Session 6818 of user achille.
+Feb 27 04:01:01 odyssey systemd: Removed slice user-0.slice.
+Feb 27 04:01:01 odyssey systemd: Stopping user-0.slice.
+Feb 27 04:02:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:02:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:03:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:03:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:03:28 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 1 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:03:28 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:04:28 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 0 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:04:28 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:06:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:06:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:07:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **:   (Sparql buffer) Error in task 2 of the array-update: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 04:07:09 odyssey gnome-session: (tracker-miner-fs:30474): Tracker-CRITICAL **: Could not execute sparql: column nie:url is not unique (strerror of errno (not necessarily related): No such file or directory)
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user nik.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user Nik2.
+Feb 27 03:30:01 MacOS systemd: Started Session 6814 of user a.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user A.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user A1.
+Feb 27 03:30:01 MacOS systemd: Started Session 6814 of user a1.
+Feb 27 03:30:01 MacOS systemd: Started Session 6814 of user b.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user ab.
+Feb 27 03:30:01 odyssey systemd: Started Session 6814 of user ac.
+Feb 27 03:30:01 MacOS systemd: Started Session 6814 of user a1.
+Feb 27 04:01:01 odyssey systemd: Removed slice nikita.slice.
