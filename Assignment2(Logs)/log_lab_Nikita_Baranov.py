@@ -12,9 +12,9 @@ parser.add_argument('dir1', help='Number of Question')
 parser.add_argument('dir2', help='Number of Question')
 args = parser.parse_args()
 
-print(args.q)
-print(args.dir1)
-print(args.dir2)
+#print(args.q)
+#print(args.dir1)
+#print(args.dir2)
 
 # Q1: line counts
 if args.q[0] == "1":
@@ -171,11 +171,21 @@ elif args.q[0] == "8":
 
 # Q9: Anonymization
 elif args.q[0] == "9":
+	import os
+	import re
+
 	def sessions_maper(log_str):
 		if "Started Session" in log_str:
 			return [str(log_str.split()[10].rsplit(".",1)[0]),1]
 		else:
 			return [None,None]
+
+	# Solution taken from http://stackoverflow.com/questions/2400504/easiest-way-to-replace-a-string-using-a-dictionary-of-replacements
+	def sessions_maper_anonimizer(log_str, dictionary):
+		pattern = re.compile(r'\b(' + '|'.join(dictionary.keys()) + r')\b')
+		result = pattern.sub(lambda x: dictionary[x.group()], log_str)
+		return result
+
 	print "*  Q9: Anonymization."
 
 	two_dir = args.dir1 + "," + args.dir2
@@ -194,68 +204,38 @@ elif args.q[0] == "9":
 		sortBy(lambda x: x[0]).\
 		collect()
 
-	user_dir1_anonim = [] #copy.copy(user_dir1)
-	user_dir2_anonim = [] #copy.copy(user_dir1)
-
-	#print (user_dir1)
-	#print (user_dir2)
+	user_dir1_anonim = [] 
+	user_dir2_anonim = [] 
 
 	for counter in range(0,len(user_dir1)):
 		user_dir1_anonim.append((user_dir1[counter][0],"user-{}".format(counter)))
-	#print (user_dir1_anonim)
 
 	for counter in range(0,len(user_dir2)):
 		user_dir2_anonim.append((user_dir2[counter][0],"user-{}".format(counter)))
 
-	#print (user_dir2_anonim)
 
 	print ("  + {}:".format(args.dir1))
 	print ("  . User name mapping:{}".format(user_dir1_anonim))
+
+	if not os.path.exists(args.dir1+"-anonymized-10"):
+		user_dir1_anonimized = sc.textFile(args.dir1).\
+			map(lambda x: sessions_maper_anonimizer(x,dict(user_dir1_anonim)))
+		user_dir1_anonimized.saveAsTextFile(args.dir1+"-anonymized-10")
+		print("  . Anonymized files: {}-anonymized-10".format(args.dir1))
+	else:
+		print "  ! Directory {}-anonymized-10 already exists.".format(args.dir1)
+
+
 	print ("  + {}:".format(args.dir2))
 	print ("  . User name mapping:{}".format(user_dir2_anonim))
 
-	# http://stackoverflow.com/questions/2400504/easiest-way-to-replace-a-string-using-a-dictionary-of-replacements
-	import re
-
-	def sessions_maper_anonimizer(log_str, dictionary):
-		pattern = re.compile(r'\b(' + '|'.join(dictionary.keys()) + r')\b')
-		print (r'\b(' + '|'.join(dictionary.keys()) + r')\b')
-		result = pattern.sub(lambda x: dictionary[x.group()], log_str)
-		return result
-
-	user_dir1_anonimized = sc.textFile(args.dir1).\
-		map(lambda x: sessions_maper_anonimizer(x,dict(user_dir1_anonim)))
-	user_dir1_anonimized.saveAsTextFile("iliad-anonymized-10")
-
-	user_dir2_anonimized = sc.textFile(args.dir2).\
-		map(lambda x: sessions_maper_anonimizer(x,dict(user_dir2_anonim)))
-	user_dir2_anonimized.saveAsTextFile("odyssey-anonymized-10")
-
-	#user_dir1_anonimized.saveAsTextFile("iliad-anonymized-temp/")
-
-
-
-			#pattern = re.compile(r'\b(' + '|'.join(d.keys()) + r')\b')
-			#result = pattern.sub(lambda x: d[x.group()], s)
-
-
-	#for item in res.collect():
-	#	if len(item[1]) > 0 : print "  + : {} started session on Hosts: {}".format(item[0],item[1])
-
-	#reduceByKey(lambda x,y: session_maper2(x,y)).\
-	#collect()
-	#))
-		#reduceByKey(lambda x,y: ).
-		#groupByKey().mapValues().collect()
-		#groupByKey().
-		#map(lambda x : (x[0], dict(list(x[1])))).
-		#collect()))
-		#reduceByKey(lambda x,y: y).
-
-	# reverse pairs map(lambda x: (x[1],x[0]))
-
-
-
+	if not os.path.exists(args.dir2+"-anonymized-10"):
+		user_dir2_anonimized = sc.textFile(args.dir2).\
+			map(lambda x: sessions_maper_anonimizer(x,dict(user_dir2_anonim)))
+		user_dir1_anonimized.saveAsTextFile(args.dir2+"-anonymized-10")
+		print("  . Anonymized files: {}-anonymized-10".format(args.dir2))
+	else:
+		print "  ! Directory {}-anonymized-10 already exists.".format(args.dir2)
 
 
 
