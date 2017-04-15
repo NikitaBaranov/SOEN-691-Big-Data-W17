@@ -8,8 +8,8 @@ sc.setLogLevel("ERROR")
 
 parser = argparse.ArgumentParser(description='Log Analisis Lab Nikita Baranov.')
 parser.add_argument('-q', help='Number of Question', nargs=1, required=True)
-parser.add_argument('dir1', help='Number of Question')
-parser.add_argument('dir2', help='Number of Question')
+parser.add_argument('dir1', help='File or directory with logfiles')
+parser.add_argument('dir2', help='File or directory with logfiles')
 args = parser.parse_args()
 
 #print(args.q)
