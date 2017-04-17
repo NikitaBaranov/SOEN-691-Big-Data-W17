@@ -164,7 +164,6 @@ elif args.q[0] == "8":
 	res = sc.textFile(two_dir).map(lambda x: sessions_maper(x))
 	res = res.filter(lambda x: x[0] != "None" and x[1] != "localhost")
 	res = res.groupByKey()
-	#res = res.map(lambda x : session_maper2(x[0],x[1]))
 	res = res.map(lambda x : (x[0],list(set(x[1]))))
 	print "  + : {} ".format(res.filter(lambda x: len(x[1]) == 1).
 		map(lambda x : (x[0],x[1][0])).collect())
