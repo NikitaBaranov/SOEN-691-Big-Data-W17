@@ -28,13 +28,13 @@ sqlContext = SQLContext(sc)
 # Constants
 
 folder = "uc_kep_obs"
-file_to_clusterize = "temp_uc_kep_obs.txt_5000-500.csv"
+file_to_clusterize = "temp_uc_kep_obs.txt_2000-100.csv"
 file_name = str(folder)+"/"+str(file_to_clusterize)
 
 # Number of clusters
-num_of_rows = 5000
-number_of_clusteroids = 500
-points_to_learn = 20
+num_of_rows = 1000
+number_of_clusteroids = 200
+points_to_learn = number_of_clusteroids / 5
 #year_slice = 2016
 
 # Clusteroid ID field
@@ -572,8 +572,8 @@ def assign_cluster_map (row_id,row,clusters):
         if dist < min_distance:
             min_distance = dist
             min_clusteroid = cluster 
-    print "({}->{}:{}) ".format(row_id,min_clusteroid[0],min_distance),
-    return (min_clusteroid[0],min_distance,)
+    #print ("({}->{}:{}) ".format(row_id,min_clusteroid[0],min_distance)),
+    return (min_clusteroid[0],min_distance)
 
 
 # Recalculating clusteroids MR   
@@ -667,7 +667,7 @@ while (clusteroids_array != new_clusteroids_array):
     print " completed in {} seconds".format(round(tt,3))
 
     #Recalculate Clusteroids
-    print"Recalculate Clusteroids",
+    print"Recalculate Clusteroids"
     t0 = time()
     new_clusteroids_array = recalculate_clusteroids_mp(clusteroids_array, data_rdd_rev_assigned_clusters)
     tt = time() - t0

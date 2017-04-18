@@ -1,0 +1,159 @@
+
+---------
+Clasterisation - k-maens - beginning
+Finde Clusteroids
+Read from file:  uc_kep_obs/temp_uc_kep_obs.txt_2000-100.csv
+Read Data  completed in 12.234 seconds
+Get random clusteroids  completed in 2.017 seconds
+Rundom clusteroids [234, 142, 1967, 1569, 542, 888, 1385, 690, 1926, 1723, 689, 788, 1543, 899, 253, 1669, 891, 1362, 1540, 1992, 66, 187, 1215, 1074, 1188, 183, 478, 1227, 62, 680, 1165, 997, 1554, 1906, 1700, 1373, 72, 1989, 471, 1972, 1776, 279, 230, 480, 1873, 1170, 1120, 1956, 1149, 859, 1063, 270, 577, 1643, 40, 1801, 1302, 327, 600, 491, 241, 699, 98, 1844, 1415, 1564, 11, 89, 274, 1108, 331, 86, 1240, 667, 271, 817, 1753, 686, 821, 1688, 978, 1100, 1129, 1683, 317, 329, 289, 1524, 379, 938, 976, 1614, 1589, 710, 186, 541, 569, 1824, 974, 1752, 417, 1928, 415, 1203, 1931, 1242, 1682, 1658, 921, 160, 1469, 243, 1207, 1647, 1039, 297, 473, 1625, 1218, 1481, 659, 1686, 1404, 1959, 1795, 570, 405, 1951, 423, 1952, 1593, 1013, 14, 9, 1864, 508, 1882, 1812, 1438, 828, 1388, 1356, 1927, 1264, 762, 288, 1245, 1984, 102, 1545, 537, 326, 1354, 582, 1704, 1152, 1257, 723, 1679, 221, 1691, 1853, 389, 1012, 1770, 540, 1243, 1081, 1890, 696, 242, 235, 1781, 925, 1040, 995, 1838, 615, 308, 751, 47, 830, 1556, 438, 588, 712, 1104, 954, 1850, 1440, 341, 1483, 1457, 1860, 908, 837, 1293, 625, 189, 644]
+Start k-means
+---------
+Run N 1
+Cluster Assignment  completed in 801.184 seconds
+Recalculate Clusteroids
+Cluster 1967 new clusteroid 1667 min summ distance 749
+Cluster 689 new clusteroid 368 min summ distance 3740
+Cluster 788 new clusteroid 1687 min summ distance 2392
+Cluster 899 new clusteroid 1222 min summ distance 1630
+Cluster 1540 new clusteroid 1496 min summ distance 3364
+Cluster 1540 new clusteroid 348 min summ distance 3357
+Cluster 1992 new clusteroid 592 min summ distance 806
+Cluster 66 new clusteroid 452 min summ distance 801
+Cluster 187 new clusteroid 1241 min summ distance 2639
+Cluster 1215 new clusteroid 1896 min summ distance 995
+Cluster 1074 new clusteroid 1586 min summ distance 1844
+Cluster 1074 new clusteroid 163 min summ distance 1830
+Cluster 1188 new clusteroid 742 min summ distance 744
+Cluster 478 new clusteroid 990 min summ distance 11149
+Cluster 62 new clusteroid 1212 min summ distance 4312
+Cluster 997 new clusteroid 1748 min summ distance 1524
+Cluster 72 new clusteroid 624 min summ distance 3694
+Cluster 471 new clusteroid 1997 min summ distance 802
+Cluster 1972 new clusteroid 1914 min summ distance 4019
+Cluster 279 new clusteroid 63 min summ distance 5618
+Cluster 279 new clusteroid 161 min summ distance 5601
+Cluster 1170 new clusteroid 1122 min summ distance 3325
+Cluster 1149 new clusteroid 286 min summ distance 6949
+Cluster 859 new clusteroid 732 min summ distance 1795
+Cluster 270 new clusteroid 61 min summ distance 492
+Cluster 40 new clusteroid 8 min summ distance 4980
+Cluster 1801 new clusteroid 1708 min summ distance 1047
+Cluster 600 new clusteroid 602 min summ distance 788
+Cluster 241 new clusteroid 180 min summ distance 2951
+Cluster 699 new clusteroid 558 min summ distance 1317
+Cluster 98 new clusteroid 1774 min summ distance 3450
+Cluster 1844 new clusteroid 1948 min summ distance 4531
+Cluster 1564 new clusteroid 159 min summ distance 710
+Cluster 331 new clusteroid 232 min summ distance 2485
+Cluster 331 new clusteroid 818 min summ distance 2484
+Cluster 331 new clusteroid 194 min summ distance 2473
+Cluster 1240 new clusteroid 108 min summ distance 1656
+Cluster 667 new clusteroid 745 min summ distance 1097
+Cluster 667 new clusteroid 280 min summ distance 1091
+Cluster 817 new clusteroid 1277 min summ distance 1554
+Cluster 817 new clusteroid 520 min summ distance 1529
+Cluster 1688 new clusteroid 493 min summ distance 1046
+Cluster 978 new clusteroid 1026 min summ distance 4954
+Cluster 1683 new clusteroid 1332 min summ distance 10615
+Cluster 1614 new clusteroid 850 min summ distance 1843
+Cluster 710 new clusteroid 868 min summ distance 1199
+Cluster 1824 new clusteroid 1017 min summ distance 1083
+Cluster 1928 new clusteroid 1431 min summ distance 1630
+Cluster 1931 new clusteroid 1802 min summ distance 3647
+Cluster 1682 new clusteroid 330 min summ distance 746
+Cluster 1658 new clusteroid 392 min summ distance 1980
+Cluster 921 new clusteroid 359 min summ distance 2222
+Cluster 243 new clusteroid 244 min summ distance 1547
+Cluster 1207 new clusteroid 1279 min summ distance 1268
+Cluster 1647 new clusteroid 1512 min summ distance 2382
+Cluster 1039 new clusteroid 1083 min summ distance 3848
+Cluster 1039 new clusteroid 1701 min summ distance 3842
+Cluster 1039 new clusteroid 791 min summ distance 3841
+Cluster 1039 new clusteroid 1194 min summ distance 3835
+Cluster 297 new clusteroid 1157 min summ distance 1843
+Cluster 1625 new clusteroid 987 min summ distance 457
+Cluster 1218 new clusteroid 1768 min summ distance 10525
+Cluster 1686 new clusteroid 777 min summ distance 994
+Cluster 1404 new clusteroid 1307 min summ distance 3094
+Cluster 1795 new clusteroid 1508 min summ distance 1113
+Cluster 570 new clusteroid 1518 min summ distance 3864
+Cluster 1951 new clusteroid 1961 min summ distance 1002
+Cluster 1013 new clusteroid 1600 min summ distance 4686
+Cluster 14 new clusteroid 490 min summ distance 848
+Cluster 1864 new clusteroid 810 min summ distance 824
+Cluster 1438 new clusteroid 1492 min summ distance 1088
+Cluster 828 new clusteroid 986 min summ distance 995
+Cluster 1388 new clusteroid 1155 min summ distance 1311
+Cluster 1356 new clusteroid 1762 min summ distance 826
+Cluster 1264 new clusteroid 1695 min summ distance 762
+Cluster 1264 new clusteroid 267 min summ distance 756
+Cluster 1984 new clusteroid 1829 min summ distance 1571
+Cluster 1545 new clusteroid 103 min summ distance 1908
+Cluster 723 new clusteroid 127 min summ distance 2330
+Cluster 1679 new clusteroid 1347 min summ distance 797
+Cluster 221 new clusteroid 1735 min summ distance 3438
+Cluster 1691 new clusteroid 83 min summ distance 2126
+Cluster 1853 new clusteroid 408 min summ distance 502
+Cluster 1012 new clusteroid 1811 min summ distance 1330
+Cluster 1243 new clusteroid 1609 min summ distance 2106
+Cluster 696 new clusteroid 983 min summ distance 3715
+Cluster 242 new clusteroid 1572 min summ distance 5511
+Cluster 1040 new clusteroid 782 min summ distance 731
+Cluster 995 new clusteroid 1849 min summ distance 523
+Cluster 615 new clusteroid 593 min summ distance 2126
+Cluster 751 new clusteroid 1253 min summ distance 1349
+Cluster 438 new clusteroid 633 min summ distance 760
+Cluster 712 new clusteroid 1622 min summ distance 8477
+Cluster 712 new clusteroid 1587 min summ distance 8476
+Cluster 1104 new clusteroid 1715 min summ distance 1248
+Cluster 1457 new clusteroid 1922 min summ distance 1016
+Cluster 1293 new clusteroid 1541 min summ distance 1302
+Cluster 625 new clusteroid 35 min summ distance 1332
+Cluster 189 new clusteroid 728 min summ distance 1561
+Cluster 189 new clusteroid 763 min summ distance 1552
+ completed in 310.675 seconds
+Run 1 Intermidiate clusteroids new [(234, 4392), (142, 5034), (1667, 749), (1569, 5863), (542, 252), (888, 10535), (1385, 2396), (690, 5270), (1926, 2764), (1723, 5604), (368, 3740), (1687, 2392), (1543, 2346), (1222, 1630), (253, 8149), (1669, 1869), (891, 781), (1362, 2624), (348, 3357), (592, 806), (452, 801), (1241, 2639), (1896, 995), (163, 1830), (742, 744), (183, 8236), (990, 11149), (1227, 249), (1212, 4312), (680, 518), (1165, 4546), (1748, 1524), (1554, 234), (1906, 1340), (1700, 6011), (1373, 258), (624, 3694), (1989, 5868), (1997, 802), (1914, 4019), (1776, 767), (161, 5601), (230, 6892), (480, 2138), (1873, 5856), (1122, 3325), (1120, 1071), (1956, 1091), (286, 6949), (732, 1795), (1063, 1327), (61, 492), (577, 982), (1643, 3623), (8, 4980), (1708, 1047), (1302, 3018), (327, 5555), (602, 788), (491, 3253), (180, 2951), (558, 1317), (1774, 3450), (1948, 4531), (1415, 3819), (159, 710), (11, 239), (89, 781), (274, 6185), (1108, 4808), (194, 2473), (86, 1353), (108, 1656), (280, 1091), (271, 526), (520, 1529), (1753, 2417), (686, 1598), (821, 2418), (493, 1046), (1026, 4954), (1100, 1936), (1129, 3044), (1332, 10615), (317, 10655), (329, 506), (289, 3723), (1524, 2107), (379, 2628), (938, 227), (976, 230), (850, 1843), (1589, 2621), (868, 1199), (186, 10522), (541, 3480), (569, 3629), (1017, 1083), (974, 1832), (1752, 1281), (417, 502), (1431, 1630), (415, 2128), (1203, 522), (1802, 3647), (1242, 1596), (330, 746), (392, 1980), (359, 2222), (160, 2273), (1469, 1596), (244, 1547), (1279, 1268), (1512, 2382), (1194, 3835), (1157, 1843), (473, 1554), (987, 457), (1768, 10525), (1481, 10102), (659, 10396), (777, 994), (1307, 3094), (1959, 2369), (1508, 1113), (1518, 3864), (405, 244), (1961, 1002), (423, 3250), (1952, 1061), (1593, 271), (1600, 4686), (490, 848), (9, 1310), (810, 824), (508, 3165), (1882, 2076), (1812, 5880), (1492, 1088), (986, 995), (1155, 1311), (1762, 826), (1927, 806), (267, 756), (762, 244), (288, 4690), (1245, 994), (1829, 1571), (102, 1938), (103, 1908), (537, 528), (326, 1580), (1354, 10226), (582, 2483), (1704, 6184), (1152, 1008), (1257, 245), (127, 2330), (1347, 797), (1735, 3438), (83, 2126), (408, 502), (389, 1079), (1811, 1330), (1770, 1613), (540, 1839), (1609, 2106), (1081, 530), (1890, 1629), (983, 3715), (1572, 5511), (235, 3071), (1781, 1576), (925, 822), (782, 731), (1849, 523), (1838, 1524), (593, 2126), (308, 1082), (1253, 1349), (47, 772), (830, 2585), (1556, 246), (633, 760), (588, 253), (1587, 8476), (1715, 1248), (954, 2616), (1850, 1275), (1440, 2790), (341, 1312), (1483, 1936), (1922, 1016), (1860, 253), (908, 259), (837, 2671), (1541, 1302), (35, 1332), (763, 1552), (644, 550)]
+Run N 1 completed in 1112.067 seconds
+---------
+Run N 2
+Cluster Assignment  completed in 889.709 seconds
+Recalculate Clusteroids
+Cluster 1362 new clusteroid 1912 min summ distance 2101
+Cluster 592 new clusteroid 1790 min summ distance 1082
+Cluster 1241 new clusteroid 1066 min summ distance 2655
+Cluster 1120 new clusteroid 637 min summ distance 796
+Cluster 327 new clusteroid 1002 min summ distance 4193
+Cluster 1948 new clusteroid 1361 min summ distance 2579
+Cluster 86 new clusteroid 1757 min summ distance 1072
+Cluster 520 new clusteroid 1118 min summ distance 1796
+Cluster 686 new clusteroid 668 min summ distance 466
+Cluster 1026 new clusteroid 1841 min summ distance 4797
+Cluster 392 new clusteroid 1506 min summ distance 1713
+Cluster 9 new clusteroid 620 min summ distance 1040
+Cluster 1245 new clusteroid 240 min summ distance 719
+Cluster 582 new clusteroid 1306 min summ distance 2203
+Cluster 1347 new clusteroid 1871 min summ distance 517
+Cluster 83 new clusteroid 993 min summ distance 3429
+Cluster 540 new clusteroid 5 min summ distance 1566
+Cluster 1890 new clusteroid 1651 min summ distance 1346
+ completed in 302.245 seconds
+Run 2 Intermidiate clusteroids new [(234, 3303), (142, 3967), (1667, 2388), (1569, 5325), (542, 252), (888, 10614), (1385, 2395), (690, 3657), (1926, 2483), (1723, 3277), (368, 5391), (1687, 4829), (1543, 1804), (1222, 800), (253, 7315), (1669, 474), (891, 781), (1912, 2101), (348, 5908), (1790, 1082), (452, 1630), (1066, 2655), (1896, 2567), (163, 2627), (742, 1577), (183, 7978), (990, 11145), (1227, 249), (1212, 4811), (680, 518), (1165, 2643), (1748, 4361), (1554, 234), (1906, 1618), (1700, 4369), (1373, 258), (624, 8717), (1989, 6407), (1997, 472), (1914, 7241), (1776, 778), (161, 6149), (230, 6885), (480, 2406), (1873, 5856), (1122, 2485), (637, 796), (1956, 1091), (286, 6068), (732, 733), (1063, 1327), (61, 1024), (577, 1245), (1643, 2784), (8, 7214), (1708, 459), (1302, 1911), (1002, 4193), (602, 1334), (491, 2424), (180, 2391), (558, 455), (1774, 2084), (1361, 2579), (1415, 3819), (159, 1448), (11, 239), (89, 781), (274, 3980), (1108, 3716), (194, 3766), (1757, 1072), (108, 3882), (280, 527), (271, 526), (1118, 1796), (1753, 1592), (668, 466), (821, 3510), (493, 3468), (1841, 4797), (1100, 1658), (1129, 3596), (1332, 9813), (317, 6867), (329, 506), (289, 2632), (1524, 2109), (379, 2626), (938, 499), (976, 230), (850, 2896), (1589, 2090), (868, 1970), (186, 8414), (541, 2411), (569, 2304), (1017, 1637), (974, 1832), (1752, 1016), (417, 502), (1431, 2436), (415, 1585), (1203, 522), (1802, 3927), (1242, 1008), (330, 1789), (1506, 1713), (359, 547), (160, 979), (1469, 768), (244, 1534), (1279, 1258), (1512, 2932), (1194, 5227), (1157, 2891), (473, 1279), (987, 451), (1768, 8240), (1481, 8592), (659, 10938), (777, 2026), (1307, 9834), (1959, 2369), (1508, 1113), (1518, 6058), (405, 244), (1961, 986), (423, 2957), (1952, 1061), (1593, 271), (1600, 6553), (490, 567), (620, 1040), (810, 267), (508, 2625), (1882, 1799), (1812, 5887), (1492, 1641), (986, 2059), (1155, 4991), (1762, 261), (1927, 806), (267, 460), (762, 244), (288, 4690), (240, 719), (1829, 2612), (102, 1101), (103, 2458), (537, 252), (326, 1309), (1354, 9646), (1306, 2203), (1704, 5369), (1152, 731), (1257, 245), (127, 3619), (1871, 517), (1735, 2330), (993, 3429), (408, 779), (389, 1079), (1811, 2155), (1770, 1062), (5, 1566), (1609, 7403), (1081, 530), (1651, 1346), (983, 3894), (1572, 5664), (235, 2787), (1781, 1305), (925, 822), (782, 137), (1849, 249), (1838, 1253), (593, 1553), (308, 805), (1253, 1339), (47, 772), (830, 2585), (1556, 246), (633, 760), (588, 253), (1587, 7363), (1715, 983), (954, 1262), (1850, 1275), (1440, 2814), (341, 1042), (1483, 1936), (1922, 992), (1860, 253), (908, 259), (837, 2671), (1541, 728), (35, 1609), (763, 2609), (644, 550)]
+Run N 2 completed in 1192.312 seconds
+---------
+Run N 3
+Cluster Assignment  completed in 881.959 seconds
+Recalculate Clusteroids
+Cluster 668 new clusteroid 1031 min summ distance 1556
+Cluster 1203 new clusteroid 250 min summ distance 803
+Cluster 244 new clusteroid 79 min summ distance 1801
+Cluster 620 new clusteroid 606 min summ distance 746
+Cluster 1871 new clusteroid 1962 min summ distance 500
+Cluster 993 new clusteroid 1304 min summ distance 6354
+Cluster 954 new clusteroid 1374 min summ distance 696
+ completed in 370.282 seconds
+Run 3 Intermidiate clusteroids new [(234, 3331), (142, 3686), (1667, 2388), (1569, 5325), (542, 252), (888, 10614), (1385, 2395), (690, 4461), (1926, 2483), (1723, 3277), (368, 5391), (1687, 4829), (1543, 1804), (1222, 800), (253, 7041), (1669, 474), (891, 781), (1912, 4513), (348, 5649), (1790, 1079), (452, 1630), (1066, 1801), (1896, 2567), (163, 2617), (742, 1577), (183, 7978), (990, 11145), (1227, 249), (1212, 3695), (680, 518), (1165, 2643), (1748, 3565), (1554, 234), (1906, 1618), (1700, 3545), (1373, 258), (624, 8441), (1989, 6138), (1997, 472), (1914, 7241), (1776, 778), (161, 6149), (230, 6885), (480, 2406), (1873, 5592), (1122, 2485), (637, 2707), (1956, 1091), (286, 6068), (732, 733), (1063, 1327), (61, 1024), (577, 1495), (1643, 2784), (8, 7214), (1708, 459), (1302, 1635), (1002, 3280), (602, 1334), (491, 2424), (180, 2391), (558, 455), (1774, 2084), (1361, 2039), (1415, 3546), (159, 1448), (11, 239), (89, 781), (274, 3980), (1108, 3716), (194, 3766), (1757, 2176), (108, 3882), (280, 527), (271, 526), (1118, 1777), (1753, 1592), (1031, 1556), (821, 3510), (493, 3468), (1841, 5004), (1100, 1658), (1129, 3596), (1332, 9813), (317, 7137), (329, 506), (289, 2632), (1524, 2109), (379, 2626), (938, 499), (976, 230), (850, 2896), (1589, 2090), (868, 1970), (186, 8414), (541, 2411), (569, 2304), (1017, 1637), (974, 1832), (1752, 751), (417, 502), (1431, 2436), (415, 1585), (250, 803), (1802, 3927), (1242, 1008), (330, 1789), (1506, 1463), (359, 547), (160, 979), (1469, 768), (79, 1801), (1279, 1523), (1512, 2648), (1194, 5227), (1157, 2891), (473, 1279), (987, 451), (1768, 8240), (1481, 7805), (659, 10938), (777, 2026), (1307, 9834), (1959, 2369), (1508, 1113), (1518, 6337), (405, 244), (1961, 986), (423, 2957), (1952, 1061), (1593, 271), (1600, 6553), (490, 567), (606, 746), (810, 267), (508, 2625), (1882, 1799), (1812, 5887), (1492, 1641), (986, 2336), (1155, 4991), (1762, 261), (1927, 806), (267, 460), (762, 244), (288, 4690), (240, 1739), (1829, 2349), (102, 1101), (103, 2184), (537, 252), (326, 1309), (1354, 10190), (1306, 2200), (1704, 5091), (1152, 731), (1257, 245), (127, 3619), (1962, 500), (1735, 2330), (1304, 6354), (408, 502), (389, 1079), (1811, 1876), (1770, 1062), (5, 1838), (1609, 8262), (1081, 530), (1651, 506), (983, 4431), (1572, 5664), (235, 2787), (1781, 1305), (925, 822), (782, 137), (1849, 249), (1838, 1253), (593, 1553), (308, 805), (1253, 1061), (47, 772), (830, 2585), (1556, 246), (633, 760), (588, 253), (1587, 4707), (1715, 983), (1374, 696), (1850, 1275), (1440, 2534), (341, 1042), (1483, 1659), (1922, 992), (1860, 253), (908, 259), (837, 2128), (1541, 728), (35, 1609), (763, 2609), (644, 550)]
+Run N 3 completed in 1252.42 seconds
+---------
+Run N 4
+Cluster Assignment  completed in 870.774 seconds
+Recalculate Clusteroids
