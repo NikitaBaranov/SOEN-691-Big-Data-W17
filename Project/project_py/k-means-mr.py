@@ -28,14 +28,14 @@ sqlContext = SQLContext(sc)
 # Constants
 
 folder = "uc_kep_obs"
-file_to_clusterize = "temp_uc_kep_obs.txt_2000.csv"
+file_to_clusterize = "temp_uc_kep_obs.txt_5000-500.csv"
 file_name = str(folder)+"/"+str(file_to_clusterize)
 
 # Number of clusters
-number_of_clusteroids = 200
+num_of_rows = 5000
+number_of_clusteroids = 500
+points_to_learn = 20
 #year_slice = 2016
-num_of_rows = 2000
-points_to_learn = 50
 
 # Clusteroid ID field
 clusteroid_id_field = "id_org"
@@ -572,7 +572,7 @@ def assign_cluster_map (row_id,row,clusters):
         if dist < min_distance:
             min_distance = dist
             min_clusteroid = cluster 
-    #print "({}->{}:{}) ".format(row_id,min_clusteroid[0],min_distance),
+    print "({}->{}:{}) ".format(row_id,min_clusteroid[0],min_distance),
     return (min_clusteroid[0],min_distance,)
 
 

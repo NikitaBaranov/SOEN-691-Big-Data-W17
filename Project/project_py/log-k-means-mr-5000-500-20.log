@@ -1,0 +1,69 @@
+
+---------
+Clasterisation - k-maens - beginning
+Finde Clusteroids
+Read from file:  uc_kep_obs/temp_uc_kep_obs.txt_5000-500.csv
+Read Data  completed in 17.453 seconds
+Get random clusteroids  completed in 3.504 seconds
+Rundom clusteroids [3314, 2323, 3882, 1240, 451, 402, 878, 1673, 3853, 1862, 3575, 221, 2552, 3320, 1548, 2548, 2065, 862, 3935, 3389, 3558, 3276, 4342, 1623, 839, 4674, 2688, 1462, 617, 3728, 2902, 1009, 4911, 1286, 2912, 969, 2334, 226, 2209, 96, 4246, 1836, 740, 2206, 2224, 2010, 1599, 2463, 2402, 4932, 3490, 4599, 3198, 660, 1182, 1142, 4261, 2391, 1330, 4272, 1894, 2760, 642, 2821, 4023, 2320, 2705, 2666, 62, 755, 3439, 444, 4920, 447, 4853, 4465, 4231, 759, 4576, 3686, 1289, 2142, 3048, 1496, 1873, 1049, 4203, 1056, 1661, 1412, 3111, 2443, 2420, 2546, 1303, 239, 1174, 102, 1847, 1612, 1900, 3419, 2582, 1074, 3547, 193, 1628, 4388, 4864, 1506, 3413, 2557, 3251, 1584, 2677, 4745, 4419, 720, 2275, 3101, 3592, 2044, 4412, 597, 2469, 4117, 2101, 370, 3169, 1547, 2837, 904, 1080, 1470, 3711, 3643, 1650, 3904, 3858, 924, 566, 1398, 4865, 2631, 4534, 3205, 3729, 2429, 3640, 3886, 2294, 4997, 3296, 1251, 1529, 4178, 3421, 1225, 2360, 3551, 3963, 3093, 1187, 936, 4256, 749, 1849, 3993, 3944, 379, 1571, 2872, 2863, 265, 1450, 4114, 894, 4620, 1640, 4493, 3783, 507, 345, 648, 4162, 1997, 2897, 3619, 1602, 3976, 4277, 3214, 2817, 2251, 1705, 4539, 546, 3364, 2280, 1575, 1707, 3044, 4112, 4369, 424, 470, 2310, 1270, 2109, 1810, 4251, 422, 974, 2985, 3294, 3370, 1730, 4479, 3065, 413, 4503, 165, 2309, 3942, 1607, 3538, 3308, 4019, 2561, 3108, 495, 4084, 4856, 321, 1579, 197, 4842, 4984, 1150, 3507, 3184, 4435, 1210, 4404, 2624, 4087, 3295, 4081, 3292, 3977, 4187, 1642, 306, 3422, 15, 612, 2102, 428, 4116, 2080, 2588, 2105, 2318, 697, 1059, 1170, 1688, 3721, 1379, 292, 1565, 2483, 1424, 2441, 3970, 670, 3453, 722, 963, 870, 1478, 3835, 1001, 3957, 2021, 1995, 1667, 4040, 914, 1072, 4192, 478, 4916, 3964, 1327, 3140, 3299, 1050, 1521, 4310, 4715, 2088, 3715, 229, 2274, 1811, 178, 4608, 2929, 816, 3663, 2768, 4461, 157, 2910, 1043, 3866, 182, 204, 233, 104, 420, 3188, 1899, 2788, 1403, 4787, 1768, 4333, 1165, 489, 2276, 941, 706, 3174, 482, 3090, 1588, 1076, 4982, 4572, 3066, 707, 2652, 3194, 443, 438, 3282, 124, 2161, 4338, 727, 682, 4340, 4414, 3185, 3244, 1198, 458, 4814, 2717, 1940, 3191, 1167, 771, 2754, 2380, 232, 2579, 4366, 2535, 1978, 1974, 2834, 4431, 416, 463, 3996, 4562, 4523, 4389, 1201, 3607, 738, 3027, 650, 1761, 2177, 4037, 3343, 1316, 4727, 2176, 19, 2191, 132, 4640, 3440, 4355, 2459, 1657, 4202, 871, 1053, 757, 4152, 4193, 4740, 3283, 432, 1819, 3432, 2932, 808, 4177, 1844, 768, 2589, 3076, 815, 4278, 2450, 4756, 3632, 814, 3813, 262, 1140, 1413, 971, 4428, 378, 3615, 4294, 347, 4408, 4453, 47, 2647, 3649, 702, 2731, 3877, 4507, 4605, 1258, 1452, 3333, 786, 2621, 4628, 1606, 3112, 320, 2041, 338, 3482, 3750, 3693, 3782, 1990, 74, 4470, 4995, 2949, 1474, 1388, 387, 1931, 2185, 2221, 440, 3087, 3095, 2938, 3211, 236, 2752, 1493, 3216, 2668, 2409, 890, 131, 2608, 2876, 3727, 775, 1209, 436, 4680, 2965, 1340, 2198, 3488, 465, 4348, 3423, 2616, 2833]
+Start k-means
+---------
+Run N 1
+Cluster Assignment  completed in 3607.455 seconds
+Recalculate Clusteroids Cluster 3314 new clusteroid 207 min summ distance 465
+Cluster 2323 new clusteroid 448 min summ distance 1635
+Cluster 451 new clusteroid 1586 min summ distance 1050
+Cluster 1862 new clusteroid 4975 min summ distance 1056
+Cluster 3575 new clusteroid 2477 min summ distance 502
+Cluster 1548 new clusteroid 333 min summ distance 1798
+Cluster 3389 new clusteroid 2150 min summ distance 481
+Cluster 3558 new clusteroid 4514 min summ distance 486
+Cluster 3276 new clusteroid 2779 min summ distance 1014
+Cluster 3276 new clusteroid 2087 min summ distance 1012
+Cluster 839 new clusteroid 235 min summ distance 1758
+Cluster 3728 new clusteroid 2930 min summ distance 2906
+Cluster 3728 new clusteroid 671 min summ distance 2893
+Cluster 1286 new clusteroid 3083 min summ distance 2354
+Cluster 2912 new clusteroid 241 min summ distance 4479
+Cluster 969 new clusteroid 1309 min summ distance 2743
+Cluster 969 new clusteroid 3679 min summ distance 2728
+Cluster 4246 new clusteroid 752 min summ distance 4977
+Cluster 4246 new clusteroid 2891 min summ distance 4950
+Cluster 2010 new clusteroid 2918 min summ distance 2644
+Cluster 2463 new clusteroid 3328 min summ distance 1839
+Cluster 2463 new clusteroid 750 min summ distance 1819
+Cluster 2463 new clusteroid 1541 min summ distance 1809
+Cluster 2402 new clusteroid 1609 min summ distance 2114
+Cluster 3490 new clusteroid 3426 min summ distance 1295
+Cluster 660 new clusteroid 785 min summ distance 5164
+Cluster 4272 new clusteroid 3843 min summ distance 494
+Cluster 1894 new clusteroid 2911 min summ distance 758
+Cluster 2760 new clusteroid 3456 min summ distance 741
+Cluster 2821 new clusteroid 4885 min summ distance 1572
+Cluster 2666 new clusteroid 3446 min summ distance 1386
+Cluster 2666 new clusteroid 3707 min summ distance 1383
+Cluster 62 new clusteroid 2729 min summ distance 2583
+Cluster 444 new clusteroid 659 min summ distance 5369
+Cluster 3048 new clusteroid 2890 min summ distance 1079
+Cluster 1661 new clusteroid 3574 min summ distance 3690
+Cluster 1412 new clusteroid 3884 min summ distance 2503
+Cluster 3111 new clusteroid 4554 min summ distance 5124
+Cluster 2443 new clusteroid 2628 min summ distance 1823
+Cluster 2420 new clusteroid 65 min summ distance 3243
+Cluster 2420 new clusteroid 2413 min summ distance 3238
+Cluster 239 new clusteroid 1981 min summ distance 4106
+Cluster 239 new clusteroid 3694 min summ distance 4084
+Cluster 239 new clusteroid 1047 min summ distance 4069
+Traceback (most recent call last):
+  File "/Users/Nikita/hadoop/git/Project/project_py/k-means-mr.py", line 672, in <module>
+    new_clusteroids_array = recalculate_clusteroids_mp(clusteroids_array, data_rdd_rev_assigned_clusters)
+  File "/Users/Nikita/hadoop/git/Project/project_py/k-means-mr.py", line 602, in recalculate_clusteroids_mp
+    for el in cluster_to_recalculate.collect():
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/rdd.py", line 810, in collect
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/rdd.py", line 140, in _load_from_socket
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/serializers.py", line 144, in load_stream
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/serializers.py", line 161, in _read_with_length
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/serializers.py", line 555, in read_int
+  File "/Users/Nikita/anaconda/lib/python2.7/socket.py", line 384, in read
+    data = self._sock.recv(left)
+socket.error: [Errno 54] Connection reset by peer
