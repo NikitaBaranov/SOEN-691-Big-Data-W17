@@ -157,3 +157,66 @@ Run N 3 completed in 1252.42 seconds
 Run N 4
 Cluster Assignment  completed in 870.774 seconds
 Recalculate Clusteroids
+Cluster 250 new clusteroid 251 min summ distance 523
+Cluster 1962 new clusteroid 1089 min summ distance 2606
+ completed in 418.205 seconds
+Run 4 Intermidiate clusteroids new [(234, 3331), (142, 3686), (1667, 2388), (1569, 5325), (542, 252), (888, 10614), (1385, 2395), (690, 4461), (1926, 2483), (1723, 3277), (368, 5391), (1687, 4559), (1543, 1804), (1222, 800), (253, 7041), (1669, 474), (891, 781), (1912, 4513), (348, 5649), (1790, 1079), (452, 1630), (1066, 1801), (1896, 2567), (163, 2348), (742, 1577), (183, 7978), (990, 11145), (1227, 249), (1212, 3144), (680, 788), (1165, 2369), (1748, 3565), (1554, 234), (1906, 1618), (1700, 3545), (1373, 258), (624, 8441), (1989, 6138), (1997, 472), (1914, 7241), (1776, 778), (161, 6149), (230, 6885), (480, 2406), (1873, 5592), (1122, 2485), (637, 2707), (1956, 1091), (286, 6068), (732, 733), (1063, 1327), (61, 1024), (577, 1495), (1643, 2784), (8, 7214), (1708, 459), (1302, 1635), (1002, 3280), (602, 1334), (491, 2424), (180, 2391), (558, 455), (1774, 2084), (1361, 2039), (1415, 3546), (159, 1448), (11, 239), (89, 781), (274, 3980), (1108, 3716), (194, 3766), (1757, 2176), (108, 3882), (280, 527), (271, 526), (1118, 1777), (1753, 1592), (1031, 2615), (821, 3510), (493, 3468), (1841, 5004), (1100, 1658), (1129, 3596), (1332, 9249), (317, 7137), (329, 506), (289, 2632), (1524, 2109), (379, 2626), (938, 499), (976, 230), (850, 2618), (1589, 2090), (868, 1970), (186, 8414), (541, 2411), (569, 2304), (1017, 1637), (974, 1832), (1752, 751), (417, 502), (1431, 2436), (415, 1585), (251, 523), (1802, 3927), (1242, 1008), (330, 1789), (1506, 1463), (359, 547), (160, 979), (1469, 768), (79, 2886), (1279, 1523), (1512, 2648), (1194, 5227), (1157, 2891), (473, 1279), (987, 451), (1768, 8238), (1481, 7805), (659, 10938), (777, 2026), (1307, 9834), (1959, 2369), (1508, 1113), (1518, 6337), (405, 244), (1961, 986), (423, 2957), (1952, 1061), (1593, 271), (1600, 6553), (490, 567), (606, 1020), (810, 267), (508, 2625), (1882, 1799), (1812, 5887), (1492, 1641), (986, 2336), (1155, 4991), (1762, 261), (1927, 806), (267, 460), (762, 244), (288, 4690), (240, 1739), (1829, 2349), (102, 1101), (103, 2184), (537, 252), (326, 1309), (1354, 10190), (1306, 2200), (1704, 5091), (1152, 731), (1257, 245), (127, 3619), (1089, 2606), (1735, 2330), (1304, 3935), (408, 779), (389, 1079), (1811, 1876), (1770, 1062), (5, 1301), (1609, 7991), (1081, 530), (1651, 506), (983, 4431), (1572, 5664), (235, 2787), (1781, 1305), (925, 822), (782, 137), (1849, 249), (1838, 1253), (593, 1553), (308, 805), (1253, 1061), (47, 772), (830, 2585), (1556, 246), (633, 760), (588, 253), (1587, 5240), (1715, 983), (1374, 684), (1850, 1275), (1440, 2534), (341, 1042), (1483, 1659), (1922, 992), (1860, 253), (908, 259), (837, 2128), (1541, 728), (35, 1609), (763, 2609), (644, 550)]
+Run N 4 completed in 1289.587 seconds
+---------
+Run N 5
+Cluster Assignment  completed in 812.755 seconds
+Recalculate Clusteroids
+Cluster 1089 new clusteroid 876 min summ distance 3116
+ completed in 3948.334 seconds
+Run 5 Intermidiate clusteroids new [(234, 3331), (142, 3686), (1667, 2388), (1569, 5325), (542, 252), (888, 10614), (1385, 2395), (690, 4461), (1926, 2483), (1723, 3277), (368, 5391), (1687, 4559), (1543, 1804), (1222, 800), (253, 7041), (1669, 474), (891, 781), (1912, 4513), (348, 5649), (1790, 1079), (452, 1630), (1066, 1801), (1896, 2567), (163, 2348), (742, 1577), (183, 7978), (990, 11145), (1227, 249), (1212, 3144), (680, 788), (1165, 2369), (1748, 3565), (1554, 234), (1906, 1618), (1700, 3545), (1373, 258), (624, 8441), (1989, 6138), (1997, 472), (1914, 7241), (1776, 778), (161, 6149), (230, 6885), (480, 2406), (1873, 5592), (1122, 2485), (637, 2707), (1956, 1091), (286, 6068), (732, 733), (1063, 1327), (61, 1024), (577, 1495), (1643, 2784), (8, 7214), (1708, 459), (1302, 1635), (1002, 3280), (602, 1334), (491, 2424), (180, 2391), (558, 455), (1774, 2084), (1361, 2039), (1415, 3546), (159, 1448), (11, 239), (89, 781), (274, 3980), (1108, 3716), (194, 3766), (1757, 2176), (108, 3882), (280, 527), (271, 526), (1118, 1777), (1753, 1592), (1031, 2615), (821, 3510), (493, 3468), (1841, 5004), (1100, 1658), (1129, 3596), (1332, 9525), (317, 7137), (329, 506), (289, 2632), (1524, 2109), (379, 2626), (938, 499), (976, 230), (850, 2618), (1589, 2090), (868, 1970), (186, 8414), (541, 2411), (569, 2304), (1017, 1637), (974, 1832), (1752, 751), (417, 502), (1431, 2436), (415, 1585), (251, 523), (1802, 3927), (1242, 1008), (330, 1789), (1506, 1463), (359, 547), (160, 979), (1469, 768), (79, 2886), (1279, 1523), (1512, 2648), (1194, 5227), (1157, 2891), (473, 1279), (987, 451), (1768, 8238), (1481, 7805), (659, 10938), (777, 2026), (1307, 9834), (1959, 2369), (1508, 1113), (1518, 6337), (405, 244), (1961, 986), (423, 2957), (1952, 1061), (1593, 271), (1600, 6553), (490, 567), (606, 1020), (810, 267), (508, 2625), (1882, 1799), (1812, 5887), (1492, 1641), (986, 2336), (1155, 4991), (1762, 261), (1927, 806), (267, 460), (762, 244), (288, 4690), (240, 1739), (1829, 2349), (102, 1101), (103, 2184), (537, 252), (326, 1309), (1354, 10190), (1306, 2200), (1704, 5091), (1152, 731), (1257, 245), (127, 3619), (876, 3116), (1735, 2330), (1304, 3402), (408, 779), (389, 1079), (1811, 1876), (1770, 1062), (5, 1301), (1609, 7991), (1081, 530), (1651, 506), (983, 4431), (1572, 5664), (235, 2787), (1781, 1305), (925, 822), (782, 137), (1849, 249), (1838, 1253), (593, 1553), (308, 805), (1253, 1061), (47, 772), (830, 2585), (1556, 246), (633, 760), (588, 253), (1587, 4973), (1715, 983), (1374, 684), (1850, 1275), (1440, 2534), (341, 1042), (1483, 1659), (1922, 992), (1860, 253), (908, 259), (837, 2128), (1541, 728), (35, 1609), (763, 2609), (644, 550)]
+Run N 5 completed in 4761.355 seconds
+---------
+Run N 6
+Cluster Assignment
+Traceback (most recent call last):
+  File "/Users/Nikita/hadoop/git/Project/project_py/k-means-mr.py", line 665, in <module>
+    data_rdd_rev_assigned_clusters = data_rdd_rev.map(lambda (x,y): (x,y,assign_cluster_map(x,y,clusteroids_array))).collect()
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/rdd.py", line 809, in collect
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip/py4j/java_gateway.py", line 1133, in __call__
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/pyspark.zip/pyspark/sql/utils.py", line 63, in deco
+  File "/Users/Nikita/hadoop/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip/py4j/protocol.py", line 319, in get_return_value
+py4j.protocol.Py4JJavaError: An error occurred while calling z:org.apache.spark.api.python.PythonRDD.collectAndServe.
+: org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 27719.0 failed 1 times, most recent failure: Lost task 0.0 in stage 27719.0 (TID 51439, localhost, executor driver): ExecutorLostFailure (executor driver exited caused by one of the running tasks) Reason: Executor heartbeat timed out after 3602067 ms
+Driver stacktrace:
+	at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1435)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1423)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1422)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1422)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:802)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:802)
+	at scala.Option.foreach(Option.scala:257)
+	at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:802)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.doOnReceive(DAGScheduler.scala:1650)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1605)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onReceive(DAGScheduler.scala:1594)
+	at org.apache.spark.util.EventLoop$$anon$1.run(EventLoop.scala:48)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:628)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1918)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1931)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1944)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1958)
+	at org.apache.spark.rdd.RDD$$anonfun$collect$1.apply(RDD.scala:935)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:362)
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:934)
+	at org.apache.spark.api.python.PythonRDD$.collectAndServe(PythonRDD.scala:453)
+	at org.apache.spark.api.python.PythonRDD.collectAndServe(PythonRDD.scala)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:280)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:214)
+	at java.lang.Thread.run(Thread.java:745)
+
